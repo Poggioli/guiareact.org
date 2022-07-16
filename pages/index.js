@@ -1,5 +1,5 @@
 import { Box, Container } from '@modulz/design-system';
-import ContributosSection from '../components/ContributosSection';
+import ContributorsSection from '../components/ContributorsSection';
 import Header from '../components/Header';
 import MainHero from '../components/MainHero';
 import TitleAndMetaTags from "../components/TitleAndMetaTags"
@@ -10,11 +10,11 @@ export default function Page() {
     <Box>
       <TitleAndMetaTags
         title="Guia de padrões React"
-        description="Um Guia de padrões React em português."
+        description="Um Guia de Padrões React em português."
       />
       <Header />
       <MainHero />
-      <ContributosSection />
+      <ContributorsSection />
       <Container size="3">
       </Container>
     </Box>

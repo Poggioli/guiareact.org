@@ -22,6 +22,8 @@
   "homepage": "https://github.com/readme/guiareact.org#readme",
   "dependencies": {
     "@modulz/design-system": "^0.6.2",
+    "@radix-ui/react-accessible-icon": "^0.1.4",
+    "@radix-ui/react-icons": "^1.1.1",
     "highlight.js": "^11.0.1",
     "next": "^10.2.3",
     "next-themes": "^0.2.0",
@@ -32,7 +34,8 @@
     "remark-external-links": "^4.0.0",
     "remark-highlight.js": "^5.1.0",
     "remark-slug": "^5.1.1",
-    "remark-toc": "^5.1.1"
+    "remark-toc": "^5.1.1",
+    "tinycolor2": "^1.4.2"
   },
   "devDependencies": {
     "file-loader": "^1.1.11",

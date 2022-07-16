@@ -1,6 +1,6 @@
 import { Box, Card, Container, Grid, Heading, Section, Text } from '@modulz/design-system';
 
-const ContributosSection = () => {
+const ContributorsSection = () => {
   const contributors = [
     {
       name: 'Ruben Marcus',
@@ -56,7 +56,7 @@ const ContributosSection = () => {
       <Container size="3">
         <Box css={{ mb: '$5' }}>
           <Heading as="h2" size="3" css={{ mb: '$4' }}>
-            Pessoas que contribuíram
+            Pessoas que já contribuíram
           </Heading>
         </Box>
 
@@ -101,4 +101,4 @@ const ContributosSection = () => {
 };
 
 
-export default ContributosSection;
+export default ContributorsSection;

@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import "highlight.js/styles/atom-one-dark-reasonable.css";
 import "../styles/style.css";
 import TitleAndMetaTags from '../components/TitleAndMetaTags';
+import GuidesPage from '../components/GuidesPage';
 
 
 const globalStyles = globalCss({
@@ -86,9 +87,10 @@ function GuiaReactApp({ Component, pageProps }) {
             >
               <Header />
             </Box>
-            <Box id='main' css={{ pt: '$8', px: "$6", position: 'relative', zIndex: 1 }}>
-              {/* ToDo add wrapper page */}
-              <Component {...pageProps} />
+            <Box css={{ pt: '$8', px: "$6", position: 'relative', zIndex: 1 }}>
+              <GuidesPage>
+                <Component {...pageProps} />
+              </GuidesPage >
             </Box>
           </>
         )}

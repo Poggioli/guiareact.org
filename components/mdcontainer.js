@@ -3,9 +3,10 @@ import remarkSlug from "remark-slug";
 import remarkLinks from "remark-external-links";
 import remarkHljs from "remark-highlight.js";
 import remarkToc from "remark-toc";
+import { components } from "./MDXComponent";
 
 export default function MdContainer({ markdown }) {
   const remarkPluginSet = [remarkSlug, remarkLinks, remarkHljs, remarkToc];
 
-  return <ReactMarkdown children={markdown} remarkPlugins={remarkPluginSet} />;
+  return <ReactMarkdown children={markdown} remarkPlugins={remarkPluginSet} components={components} />;
 }
